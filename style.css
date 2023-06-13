@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.mgt5 {
+    margin-top: 5px;
+}
+.mgt10 {
+    margin-top: 10px;
+}
+.nobg{
+    background: #f2f2f2 !important;
+}
+.ctleft{
+    justify-content: start;
+}
+.threebox{
+    width: calc(100%/3);
+    box-sizing: border-box;
+}
+.threebox:nth-child(even){
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+.left20{
+    width: 20%;
+}
+.flex1{
+    flex: 1;
+}
+
+
+.background {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 20px;
+}
+
+.top {
+    margin: 10px;
+    background: #f2f2f2;
+}
+
+.top .box {
+    margin: 20px 30px;
+}
+
+.top .box div {
+    display: flex;
+    justify-content: center;
+    background: #c0c0cc;
+    align-items: center;
+}
+
+.top .box1 .logo {
+    width: 100%;
+    height: 40px;
+    justify-content: start;
+    padding: 0 10px;
+}
+
+.top .box1 .navigation {
+    height: 20px;
+}
+
+.top .box1 .header {
+    height: 100px;
+}
+
+.top .box1 .main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top .box1 .main .bar {
+    width: 20%;
+    height: 400px;
+}
+
+.top .box1 .main .body_area {
+    flex: 1;
+    margin-left: 10px;
+    height: 400px;
+}
+
+.topright .box2 .first {
+    display: flex;
+    justify-content: space-between;
+}
+.topright .box2 .header {
+    height: 100px;
+}
+
+.topright .box2 .intro {
+    height: 90px;
+}
+
+.topright .box2 .Boox {
+    display: flex;
+    justify-content: space-evenly;
+}
+.topright .box2 .Boox .o {
+    height: 340px;
+}
+.bottonleft .box3 .logo{
+    justify-content: start;
+    padding-left: 10px;
+}
+.bottonleft .box3 .main{
+    display: flex;
+    justify-content: space-between;
+}
+.bottonleft .box3 .main .left{
+    width: 20%;
+    height: 550px;
+    display: block;
+}
+.bottonleft .box3 .main .right{
+    flex: 1;
+    display: inline;
+    height: 550px;
+}
+.bottonleft .box3 .main .right .header{
+    height: 20%;
+}
+.bottonleft .box3 .main .right .body_area{
+    height: calc(80% - 10px);
+    margin-top: 10px;
+}
+
+.bottonright .box4 .grip{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.bottonright .box4 .grip .grip_box{
+    height: 90px;
+    margin: 10px;
+}
+.bottonright .box4 .flex .box{
+    height: 100px;
+    margin: 0 0;
+    margin-top: 10px;
+}
